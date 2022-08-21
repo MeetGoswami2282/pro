@@ -1,0 +1,536 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Hello Meet</title>
+<link rel="stylesheet" href="C:\Users\Kali2282\Downloads\fontawesome-free-5.15.3-web\css\all.min.css">	
+
+
+
+
+
+<!-- <script src="https://kit.fontawesome.com/ce3e7f248a.js" crossorigin="anonymous"></script>
+ --><!--   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script> -->
+
+ <style>
+		*{
+		box-sizing: border-box;
+		margin: 0px;
+		padding: 0px;
+		font-family:  calibri;
+	 }
+	.header{
+		overflow: hidden;
+		padding: 20px 10px;	
+		background-image:linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)), url("C:/BG Image/banner.png");	
+		width: 100%;
+		min-height: 100vh;
+		justify-content: center;
+		background-position: center;
+		background-size: cover;
+/*		opacity: 0.7;
+*/
+
+	}
+	a{
+		font-size: 25px;
+		font-weight: 899;
+		color:white;
+		float: left;
+		text-decoration: none;
+		padding: 10px;
+		text-align: center;
+		line-height: 35px;
+		text-underline-position: right;
+		border-radius: 4px;
+	}
+	.header-right{
+ float:right;
+	}
+	.header img{
+		width: 120px;
+		align-items: center;
+		justify-content: center;
+		position: absolute;
+
+
+	}
+	a:hover{
+		color: yellow;
+	}
+	h1{
+		position: absolute;
+		text-align: center;
+	margin: auto;
+	top: 50%;
+	left: 50%;
+	font-size: 55px;
+	color: white	;
+	font-width: 999;
+	transform: translate(-50%,-50%);
+	width: 100%;
+	}
+
+h3{
+	text-align: center;
+	margin: 20px;
+	font-size: 30px;
+	color: #ffff;
+/*	color: purple;
+*//*	color: yellow;
+	text-shadow: 12px 21px;*/
+}
+p{
+	color: #ffff;
+
+}
+h2{
+	text-align: center;
+	font-size: 35px;
+	margin: 10px;
+}
+.flex-container{
+		display: flex;
+	}
+	.meet3{
+	padding: 10px 23px;
+		margin: 10px;
+	 	box-shadow: 10px 13px 23px black;
+/*		 border-radius: 10px;
+*/		background: #fff3f3;
+	
+	}
+	h6{
+		text-align: center;
+		font-size: 30px;
+	}
+	h3{
+		text-align: center;
+		margin: 15px;
+		padding: 15px;
+		color: black;
+		font-size: 30px;
+	}
+	h4{
+		text-align: center;
+		font-size: 35px;
+		margin: 30px;
+		padding: 20px;
+
+	}
+	.jk{
+		
+		padding: 27px;
+		
+	}
+	.flex-container{
+		display: flex;
+
+		width: 100%;
+		height: 30%;
+		padding: 50px;		
+	}
+	h2{
+		color:black;
+		margin-top: 5%;
+
+	}
+p{
+	color: black;
+	font-style: 30px;
+
+}
+h6{
+	text-align: center;
+	font-size: 35px;
+}
+
+.gallery {
+  float: left;
+  display: flex;
+  width: 33.33%;
+  padding: 15px;
+  overflow: hidden;
+
+}
+.desc{
+	text-align: center;
+	font-size: 20px;
+}
+
+.jago{
+	margin: 100px auto;
+	width: 80%;
+	background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url("C:/BG Image/banner2.jpg");
+	background-position: center;
+	background-size: cover;
+	padding: 100px 0;
+	text-align: center;
+}
+.jago h5{
+	color: #ffff;
+	margin-bottom: 4px ;
+	padding: 20px;
+	font-size: 35px;
+}
+
+
+.footer{
+width: 100%;
+text-align: center;
+padding:30px;
+}
+.footer h4{
+	margin-bottom: 25px;
+	margin-top: 20px;
+	font-weight: 600;
+}
+ .icons .fa{
+	color: black;
+margin: 15px;
+	cursor: pointer;
+	padding: 18px;
+
+}
+.fa-heart-o{
+	color: #f44336;
+	margin: 5px;
+}
+
+		
+	}
+.meet{
+
+		align-items: center;
+		margin-left:80px;
+	padding-left: 90px;
+		font-size: 25px;
+	}
+	.mit{
+		margin: 50px;
+		padding: 10px;
+
+
+	}
+	.wrapper img{
+		margin: 10px;
+	}
+	.wrapper h1{
+		text-align: center;
+		dominant-baseline: 30px;
+	}
+	.img-area{
+		margin: 10px;
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+		flex-direction: row;
+		}	
+
+	
+
+</style>
+</head>
+<body>
+	<section>
+
+	<div class="header">
+		<h1>Zydas Insititue of Technology</h1>
+		 <a href="#default" class="logo"> <img src="C:/BG Image/logo.png">  </a>
+  <div class="header-right">
+	<a class="active" href="#home">Home</a>
+	<a href="#contact">Course</a>
+	<a href="#about">Campus</a>
+	<a href="#Contact">Contact</a>
+	<a href="#About us">About us</a>
+  </div>
+</div>
+
+  <!-- Courses -->
+<h2>Courses We Offer
+</h2>
+<div class="flex-container">
+		<div class="meet3">
+	<h6> Intermediate</h6>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="meet3">
+	<h6>Degree</h6>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="meet3">
+	<h6>Post Graduation</h6>
+		<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div>
+</section>
+
+
+
+
+
+ <!-- <div class="container">
+	<div class="card">
+		<h3> Intermediate</h3>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="card">
+	<h3>Degree</h3>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+	<div class="card">	
+
+	<h3>Post Graduation</h3>
+		<p> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+	</div>
+</div> -->
+
+
+ <!-- ABOUT FACILITIES -->
+
+<h4>Our Facilities</h4>
+<div class="jk">
+
+	<img src="C:\Users\meetg\Downloads\pexels-rafael-cosquiere-2041540.jpg" style="width: 25%; float:left; margin: 15px;">
+	<h5 style="font-size: 44px;color: brown; text-align: center; float: left; padding: 10px;">Library</h5><br><br>
+	  <p style="padding: 80px;  font-size: 25px; font-family: sans-serif" >
+	 
+	  &nbsp &nbsp &nbsp &nbsp &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+	</p></div>
+<div class="jk">
+<!-- 
+	<img src="C:\Users\Kali2282\Downloads\pexels-janko-ferlic-590493.jpg" style="width: 25%; float:left; margin: 15px;">
+	<h5 style="font-size: 44px;color: brown; text-align: center; float: left; padding: 10px;">Library</h5><br><br>
+	  <p style="padding: 80px;  font-size: 25px; font-family: sans-serif;:  " >
+	 
+	  &nbsp &nbsp &nbsp &nbsp &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+	</p></div> -->
+	<div class="jk">
+
+	<img src="C:\Users\Kali2282\Downloads\pexels-igor-starkov-914388.jpg" style="width: 15%; float:right; margin: 15px;">
+	<h5 style="font-size: 44px;color: brown; text-align: center; float: left; padding: 10px;">Canteen</h5><br><br>
+	  <p style="padding: 80px;  font-size: 25px; font-family: sans-serif;:  " >
+	 
+	  &nbsp &nbsp &nbsp &nbsp &nbsp Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+	  tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+	  quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+	  consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+	  cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+	  proident, sunt in culpa qui officia deserunt mollit anim id est laborum
+	</p></div>
+
+	
+
+<style>
+
+</style>
+<body>
+
+<!-- OUR PROFESSORS
+ -->
+	<h6 style="margin: 30px;">Our Professors</h6>
+	<div class="wrapper">
+
+	<div class="img-area">
+		
+			<div class="single-image"><img src="C:\Users\Kali2282\Downloads\pexels-max-fischer-5212339.jpg" width=400px; height="270px;" ">
+				<div class="desc">Meet</div>
+			</div>
+			<div class="single-image"><img src="C:\Users\Kali2282\Downloads\pexels-fauxels-3184328.jpg" width="400px;">
+				<div class="desc">Meet</div>
+			</div>
+			<div class="single-image"><img src="C:\Users\Kali2282\Downloads\pexels-cleyder-duque-3981801.jpg"width="400px;">
+             <div class="desc">Meet</div>  
+			</div>
+			<div class="single-image"><img src="C:\Users\Kali2282\Downloads\pexels-vanessa-garcia-6325959.jpg"width="400px;">
+            <div class="desc">Meet</div>
+			</div>
+			<div class="single-image"><img src="C:\Users\Kali2282\Downloads\pexels-christina-morillo-1181487 (1).jpg"width="400px;">
+            <div class="desc">Meet</div>
+			</div>
+			<div class="single-image"><img src="C:\Users\Kali2282\Downloads\pexels-rodnae-productions-7092372.jpg"width="400px">
+
+            <div class="desc">Meeet</div>
+			</div>
+
+		</div></div>
+<!-- 
+ <div class="gallery"> 
+ 
+	<img src="C:\Users\Kali2282\Downloads\pexels-max-fischer-5212339.jpg" width="100%" height="475px">
+  
+  <div class="desc"><b>Pro.Dyson</b></div>
+</div>
+
+<div class="gallery">
+ 
+	<img src="C:\Users\Kali2282\Downloads\pexels-fauxels-3184328.jpg" width="100%" height="475px;">
+ 
+  <div class="desc"><b>Pro. Macky</b></div>
+</div>
+
+<div class="gallery">
+  
+	<img src="C:\Users\Kali2282\Downloads\pexels-cleyder-duque-3981801.jpg"  width="100%" height="475px" >
+ 
+  <div class="desc"><b>Pro. Wilimas</b></div>
+</div>
+
+<div class="gallery">
+
+	<img src="C:\Users\Kali2282\Downloads\pexels-vanessa-garcia-6325959.jpg"  width="100%"  height="475px">
+ 
+  <div class="desc" style="text-align: center;"><b>Pro.Malios</b></div>
+</div>
+<div class="gallery">
+	<img src="C:\Users\Kali2282\Downloads\pexels-christina-morillo-1181487 (1).jpg" width="100%"height="475px" >
+	<div class="desc" > <b style="text-align: center;"> Pro.kaly</b></div>
+</div>
+<div class="gallery">
+
+	<img src="C:\Users\Kali2282\Downloads\pexels-rodnae-productions-7092372.jpg"  width="100%" height="475px" >
+  </a>
+  <div class="desc"><b>Pro.Jack</b></div>
+</div>
+ -->
+  
+<!--  STDUENT SAY 
+ -->    
+
+	<h6 style="margin: 40px; padding-top: 23px;  " >What Our Student Say</h6>
+	<div class="flex-container" >
+<div style="background-color: brown; margin: 10px; " >	
+
+		
+<p>	<img src="C:\BG Image\testi2.jpg" style="width: 100px; border-radius: 40%;padding: 10px; " >
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo	
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		<h3 style="float: left;">Brayan Pit</h3>
+
+	</div>
+	<div style=" margin: 10px; 	background-color: brown;">
+		<p>						<img src="C:\BG Image\user2.jpg" style="width: 100px; border-radius: 40%; padding: 10px;" >
+ Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>					<h3 style="float: left;">Michel Show</h3>
+  
+	</div>
+	</div><br>
+	<br>
+	<br>
+
+	<br>	
+	<section class="jago">
+		<h5>Enroll For Our Various Online Courses<br> Anywhere From The World</h5>
+</section>
+		<h6>Contact US</h6>
+<section class="location">
+	<img src="C:\Users\Kali2282\Pictures\Screenshots\Screenshot (205).png" style="width: 50%;  height: 50%; float: left;  margin: 50px; ">
+	<div class="meet" style="padding: 20px; font-size: 20px;">
+	<div class="mit">
+		<span>
+<h5><i class="fas fa-map-marker-alt"></i>Adddress</h5>
+			<p>55, Laxminarayan Society,  Hirawadi Road<br>Saijpur bogha,Ahmedabbad,382345</p>
+		</span>
+	</div>
+	<div class="mit">
+		<span>
+			<h5><i class="fas fa-envelope"></i>
+				Email:
+			</h5>
+			<p>meetgoswami842@gmail.com</p>
+		</span>
+		</div>
+		<div class="mit">
+			<span>
+			<h5>
+				<i class="fas fa-phone-square">Mobile Number</i></h5>
+				<p>8140480445</p>
+			</span>
+	
+ </section>
+</div>
+</div>
+</section>
+</body>
+
+	<br><br>
+
+
+	</form>
+</div>
+</div>
+
+
+		<section  class="footer">
+			<h4>Abous  Us</h4>
+			<p >Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation 	aliquip ex ea commodo
+			consequat. Duis aute <br>irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<div class="icons" style=" justify-content: space-between;">
+		<i class="fab fa-facebook" style="font-size: 25px; margin: 10px;"></i>
+		<i class="fab fa-twitter-square"style="font-size: 25px; margin: 10px;"></i>
+		<i class="fab fa-instagram"style="font-size: 25px; margin: 10px;"></i>
+		<i class="fab fa-linkedin-in"style="font-size: 25px; margin: 10px;"></i>
+
+
+				 <i class="fa fa-linkedin" ></i>
+
+			</div>
+			<p>Made with<i class="fa fa-heart-o"></i> by Meeet Goswami</i>
+</p>
+</section>
+</body>
+</html>
